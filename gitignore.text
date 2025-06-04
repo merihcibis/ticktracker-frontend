@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+
+# Logs and system files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# Environment and config (if any)
+.env
+.env.local
+.env.*.local
+
+# VSCode and IDEs
+.vscode/
+.idea/
+
+# Optional Chrome build artifacts
+*.crx
+*.pem
+
+# Misc
+*.zip
