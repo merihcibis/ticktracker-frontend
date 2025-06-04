@@ -1,63 +1,57 @@
-# TickTrack – Chrome Extension for Jira Time Logging
+# ⏱️ TickTrack – Jira Time Logger
 
-TickTrack is a lightweight Chrome extension that lets you log time to Jira effortlessly — without switching tabs or navigating complex menus.
+**Quickly log work time to Jira, without leaving your browser.**
 
-🔗 Try the extension: [Chrome Web Store link goes here]
-
----
-
-## 🚀 Features
-
-- 🕒 Quickly log work time to Jira issues
-- 📡 Offline mode – syncs time logs once you reconnect
-- 🔐 Secure Jira OAuth2 login via Chrome Identity API
-- 🧠 Save and reuse recent work descriptions as presets
-- ⚙️ Works with custom Jira instances via a secure backend
+TickTrack is a minimal Chrome extension that lets you track Jira time effortlessly, even while offline. No complex setup, no switching tabs — just click, log, and move on.
 
 ---
 
-## 🧰 Tech Stack
+## ✨ Features
 
-- HTML + CSS + JavaScript (React)
-- Chrome Extensions API (Manifest v3)
-- Chrome Identity API for OAuth2 login
-- Jira REST API for time tracking
-
----
-
-## 🔒 Security and Privacy
-
-- No personal data is stored or shared
-- Access tokens are stored via `chrome.storage.sync` (encrypted and managed by Chrome)
-- Offline logs are stored temporarily in local storage
-- All authentication is handled securely using Atlassian OAuth2 standards via a backend proxy
-
-📄 [Privacy Policy](link-to-privacy-policy.md or your Notion/GitHub page)
+- 🕒 **Log work in seconds** — intuitive UI for fast entries  
+- 📡 **Offline mode** — cached logs sync automatically later  
+- 🔐 **OAuth2** login — secure Atlassian authentication  
+- 🧠 **Presets** — remembers your most frequent logs  
+- ⚙️ **Backend option** — supports custom Jira domains via secure backend
 
 ---
 
-## 📦 Installation (Developer Mode)
+## 🚀 Installation
 
-> For testers or developers
+**Use from the Chrome Web Store (Recommended)**  
+🔗 *Coming soon...*
 
-1. Clone this repo or download the [latest release `.zip`](#)
-2. Visit `chrome://extensions/` in Chrome
-3. Enable **Developer mode** (top right)
-4. Click **Load unpacked**
-5. Select the extension's `build` or `dist` folder
+> This is the safest and most convenient way to use TickTrack.
 
 ---
 
-## 🛠 Development (Optional)
+## 🛠️ Tech Stack
 
-> Only if you want to modify or build the extension from source
+- React + Vite (Frontend)
+- Node.js + Express (Backend)
+- Chrome Identity API + Atlassian OAuth2
 
-```bash
-# Install dependencies
-npm install
+---
 
-# Build the extension
-npm run build
-```
-Have questions or feedback?
-Reach out to the developer: **merihcibis@gmail.com**
+## 🔐 Privacy & Security
+
+- No personal data is collected, tracked, or stored
+- OAuth tokens are saved securely in your browser only
+- Offline logs are stored **locally** and never transmitted until authorized
+- Communication with Jira APIs is encrypted over HTTPS
+- Backend is open-source and hosted securely (e.g., Render)
+
+📄 [Privacy Policy (hosted on Notion)](https://www.notion.so/TickTrack-Privacy-Policy-208fec2bb4e780949a52d3b19cfc1972)
+
+---
+
+## 📬 Contact
+
+Have questions, feedback, or feature ideas?  
+Email the developer: **merihcibis@gmail.com**
+
+---
+
+## 🪪 License
+
+MIT License – see [`LICENSE.txt`](LICENSE.txt) for details.
