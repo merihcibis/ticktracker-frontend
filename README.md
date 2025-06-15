@@ -55,3 +55,13 @@ Email the developer: **merihcibis@gmail.com**
 ## 🪪 License
 
 MIT License – see [`LICENSE.txt`](LICENSE.txt) for details.
+
+---
+
+## 📘 Disclaimer
+
+TickTrack is provided “as-is” without warranties of any kind.  
+The developer is not responsible for any direct or indirect damages, including but not limited to data loss, account issues, or workflow disruption.
+
+While every effort is made to ensure secure and stable operation, this is an independent tool not affiliated with Atlassian.  
+Use at your own discretion.
