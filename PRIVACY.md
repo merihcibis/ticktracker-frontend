@@ -42,3 +42,13 @@ For privacy concerns or questions, reach out at:
 
 ## 📜 Compliance
 TickTrack follows best practices for Chrome extensions and OAuth2 authentication. All communications use HTTPS and respect user consent.
+
+---
+
+## 📘 Disclaimer
+
+This software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement.
+
+In no event shall the developer or contributors be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
+
+TickTrack is an independent tool and is not affiliated with or endorsed by Atlassian. Use of this extension is at your own risk. It is the user's responsibility to ensure data accuracy, secure their credentials, and comply with any relevant organizational or legal policies.
