@@ -60,8 +60,8 @@ MIT License – see [`LICENSE.txt`](LICENSE.txt) for details.
 
 ## 📘 Disclaimer
 
-TickTrack is provided “as-is” without warranties of any kind.  
-The developer is not responsible for any direct or indirect damages, including but not limited to data loss, account issues, or workflow disruption.
+This software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement.
 
-While every effort is made to ensure secure and stable operation, this is an independent tool not affiliated with Atlassian.  
-Use at your own discretion.
+In no event shall the developer or contributors be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
+
+TickTrack is an independent tool and is not affiliated with or endorsed by Atlassian. Use of this extension is at your own risk. It is the user's responsibility to ensure data accuracy, secure their credentials, and comply with any relevant organizational or legal policies.
